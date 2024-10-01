@@ -1,0 +1,247 @@
+body, html{
+    margin: 0%;
+}
+.mainbg{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgb(252, 234, 238),rgb(252, 153, 153));
+}
+.logodiv{
+    width: 11%;
+    height: 26%;
+    position: absolute;
+    top: -4%;
+    left: -2%;
+    z-index: 2;
+}
+.logo{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.square{
+    width: 60%;
+    height: 55%;
+    background-color: rgb(250, 42, 111);
+    opacity: 0.5;
+    right: 0%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 10%;
+    overflow: hidden;
+    
+    
+}
+.innercircle{
+    width: 70%;
+    height: 145%;
+    border-radius: 50%;
+    background-color:  rgb(214, 11, 79);
+    opacity: 0.9;
+    position: absolute;
+    left: 15%;
+    top: 5%;    
+    
+}
+.rect{
+    width: 26%;
+    height: 60%;
+    bottom: 0%;
+    position: absolute;
+    left: 5%;
+    background-color: rgb(250, 42, 111);
+    opacity: 0.5;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.innerrect{
+
+    width: 35%;
+    height: 60%;
+    bottom: 0%;
+    position: absolute;
+    left: -2.5%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.image2{
+    width: 100%;
+    height: 100%;
+}
+.imagediv{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    z-index: 2;
+    
+}
+.image{
+    
+    width: 100%;
+    height: 100%;
+}
+.title{
+    position: absolute;
+    font-size: 4vw;
+    top: 11%;
+    left: 5%;
+    font-family:"Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(119, 3, 42);
+}
+.tag{
+    position: absolute;
+    top: 23.5%;
+    left: 5.3%;
+    font-size: 2.5vw;
+    font-family: "Niconne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(131, 49, 76);
+}
+.des{
+    position: absolute;
+    font-size: 1.7vw;
+    bottom: 12%;
+    left: 31.5%;
+    font-family: "Niconne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.buy{
+    position: absolute;
+    bottom: 6%;
+    left: 32%;
+    border: none;
+    width: 15%;
+    height: 5%;
+    background-color: rgb(170, 7, 61);
+    border-radius: 10px;
+    color: white;
+}
+.buy:hover{
+    background-color: rgb(253, 7, 89);
+    color: black;
+}
+.media{
+    width: 30%;
+    height: 12%;
+    background-color: rgb(170, 7, 61);
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 40%;
+    right: -11%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.insta,.wapp,.fb{
+    display: inline;
+    font-size: 1.2vw;
+    color: white;
+    font-family: "Goldman",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.premium{
+    
+    position: absolute;
+    top: -9%;
+    font-size: 11vw;
+    right: 4%;
+    opacity: 0.2;
+    font-family: "Days One",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+.new{
+    position: absolute;
+    top: 1.1%;
+    left: 15%;
+    font-size: 2vw;
+    font-family: "Goldman",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(58, 1, 58);
+}
+.men{
+    position: absolute;
+    top: 1.1%;
+    left: 22%;
+    font-size: 2vw;
+    font-family: "Goldman",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(58, 1, 58);
+}
+.women{
+    position: absolute;
+    top: 1.1%;
+    left: 29%;
+    font-size: 2vw;
+    font-family: "Goldman",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(58, 1, 58);
+}
+.new:hover,.men:hover,.women:hover{
+    color:  rgb(250, 28, 165);
+}
+.fb:hover,.insta:hover,.wapp:hover{
+    color: rgb(250, 28, 165);
+}
+.summa{
+    position: absolute;
+    width: 2%;
+    top: 3.5%;
+    height: 5%;
+    right: 13%;
+}
+#shop{
+    font-size: 2vw;
+    color:  rgb(170, 7, 61);
+}
+.summa2{
+    position: absolute;
+    width: 2%;
+    top: 3.5%;
+    height: 5%;
+    right: 7%;
+}
+#user{
+    font-size: 2vw;
+    color:  rgb(170, 7, 61);
+}
+#user:hover,#shop:hover{
+    color: rgb(250, 28, 165);
+}
+.search{
+    
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    right: 25%;
+    top: 3%;
+    border-radius: 30px;
+    border-color: transparent;
+}
+.search::placeholder{
+    top: 25%;
+    position: absolute;
+    
+    color: rgb(65, 3, 23);
+}
